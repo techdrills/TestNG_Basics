@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG_Basics.Annotations">
+      <class name="com.hostel.qa.testcases.loginTest">
         <methods>
-          <include name="failcase"/>
-          <include name="launchBrowser"/>
-          <include name="abc"/>
+          <include name="verifyLogo"/>
+          <include name="teardown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- TestNG_Basics.Annotations -->
+      </class> <!-- com.hostel.qa.testcases.loginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
