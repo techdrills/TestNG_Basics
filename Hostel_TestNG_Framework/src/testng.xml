@@ -1,0 +1,14 @@
+<suite name = "Pardise Hostel Automate TestCases">
+	<test name = "TestNG Framework">
+	
+	<parameter name = "username" value = "root"> </parameter>
+	<parameter name = "password" value = "admin"> </parameter>
+	
+		<classes name = "TestNG Clasees">
+		
+		 	<class name = "com.hostel.qa.testcases.loginTest"></class>   
+			<class name = "com.hostel.qa.testcases.homePageTest"></class>
+			
+		</classes>
+	</test>
+</suite>

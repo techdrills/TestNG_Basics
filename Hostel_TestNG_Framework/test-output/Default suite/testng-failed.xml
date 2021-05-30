@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hostel.qa.testcases.loginTest">
+      <class name="com.hostel.qa.testcases.homePageTest">
         <methods>
-          <include name="verifyLogo"/>
-          <include name="teardown"/>
+          <include name="averifyUserName"/>
+          <include name="verifyLogOut"/>
           <include name="setup"/>
+          <include name="teardown"/>
+          <include name="infiite"/>
         </methods>
-      </class> <!-- com.hostel.qa.testcases.loginTest -->
+      </class> <!-- com.hostel.qa.testcases.homePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

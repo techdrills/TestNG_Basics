@@ -1,17 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-25T08:53:54 IST" name="Default suite" finished-at="2021-05-25T08:53:54 IST" duration-ms="82">
+  <suite started-at="2021-05-30T10:54:55 IST" name="Pardise Hostel Automate TestCases" finished-at="2021-05-30T10:56:33 IST" duration-ms="98365">
     <groups>
+      <group name="Homepage Elements">
+        <method signature="homePageTest.urlTest()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" name="urlTest" class="com.hostel.qa.testcases.homePageTest"/>
+        <method signature="homePageTest.titleTest()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" name="titleTest" class="com.hostel.qa.testcases.homePageTest"/>
+        <method signature="homePageTest.verifyAddStudentButton()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" name="verifyAddStudentButton" class="com.hostel.qa.testcases.homePageTest"/>
+      </group> <!-- Homepage Elements -->
+      <group name="Link Verifications">
+        <method signature="homePageTest.verifyHomeLink()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" name="verifyHomeLink" class="com.hostel.qa.testcases.homePageTest"/>
+        <method signature="homePageTest.verifyAddStudentLink()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" name="verifyAddStudentLink" class="com.hostel.qa.testcases.homePageTest"/>
+      </group> <!-- Link Verifications -->
+      <group name="Log Out">
+        <method signature="homePageTest.verifyLogOut()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" name="verifyLogOut" class="com.hostel.qa.testcases.homePageTest"/>
+      </group> <!-- Log Out -->
     </groups>
-    <test started-at="2021-05-25T08:53:54 IST" name="Default test" finished-at="2021-05-25T08:53:54 IST" duration-ms="82">
+    <test started-at="2021-05-30T10:54:55 IST" name="TestNG Framework" finished-at="2021-05-30T10:56:33 IST" duration-ms="98365">
       <class name="com.hostel.qa.testcases.homePageTest">
-        <test-method signature="ab()[pri:0, instance:com.hostel.qa.testcases.homePageTest@157853da]" started-at="2021-05-25T08:53:54 IST" name="ab" finished-at="2021-05-25T08:53:54 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:55:32 IST" name="setup" finished-at="2021-05-30T10:55:39 IST" duration-ms="6645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ab -->
+        </test-method> <!-- setup -->
+        <test-method signature="titleTest()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:55:39 IST" name="titleTest" finished-at="2021-05-30T10:55:39 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:55:39 IST" name="teardown" finished-at="2021-05-30T10:55:39 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:55:39 IST" name="setup" finished-at="2021-05-30T10:55:46 IST" duration-ms="7111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="urlTest()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:55:46 IST" name="urlTest" finished-at="2021-05-30T10:55:46 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:55:47 IST" name="teardown" finished-at="2021-05-30T10:55:47 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:55:47 IST" name="setup" finished-at="2021-05-30T10:55:54 IST" duration-ms="7128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAddStudentButton()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:55:54 IST" name="verifyAddStudentButton" finished-at="2021-05-30T10:55:55 IST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddStudentButton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:55:55 IST" name="teardown" finished-at="2021-05-30T10:55:55 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:55:55 IST" name="setup" finished-at="2021-05-30T10:56:03 IST" duration-ms="7770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAddStudentLink()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:56:03 IST" name="verifyAddStudentLink" finished-at="2021-05-30T10:56:05 IST" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddStudentLink -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:56:05 IST" name="teardown" finished-at="2021-05-30T10:56:06 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:56:06 IST" name="setup" finished-at="2021-05-30T10:56:13 IST" duration-ms="7448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomeLink()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:56:13 IST" name="verifyHomeLink" finished-at="2021-05-30T10:56:13 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeLink -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:56:13 IST" name="teardown" finished-at="2021-05-30T10:56:13 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:56:13 IST" name="setup" finished-at="2021-05-30T10:56:22 IST" duration-ms="8529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogOut()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:56:22 IST" name="verifyLogOut" finished-at="2021-05-30T10:56:25 IST" duration-ms="2764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOut -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:56:25 IST" name="teardown" finished-at="2021-05-30T10:56:25 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:56:25 IST" name="setup" finished-at="2021-05-30T10:56:32 IST" duration-ms="7320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="averifyUserName()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:56:32 IST" name="averifyUserName" finished-at="2021-05-30T10:56:32 IST" depends-on-methods="com.hostel.qa.testcases.homePageTest.verifyLogOut" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- averifyUserName -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hostel.qa.testcases.homePageTest@37858383]" started-at="2021-05-30T10:56:32 IST" name="teardown" finished-at="2021-05-30T10:56:33 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- com.hostel.qa.testcases.homePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.hostel.qa.testcases.loginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:54:55 IST" name="setup" finished-at="2021-05-30T10:55:00 IST" duration-ms="5573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginButton()[pri:1, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:00 IST" name="verifyLoginButton" finished-at="2021-05-30T10:55:00 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:00 IST" name="teardown" finished-at="2021-05-30T10:55:01 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:01 IST" name="setup" finished-at="2021-05-30T10:55:06 IST" duration-ms="5079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogo()[pri:1, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:06 IST" name="verifyLogo" finished-at="2021-05-30T10:55:08 IST" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:08 IST" name="teardown" finished-at="2021-05-30T10:55:08 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:08 IST" name="setup" finished-at="2021-05-30T10:55:13 IST" duration-ms="5341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidDetail()[pri:3, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:13 IST" name="verifyLoginWithValidDetail" finished-at="2021-05-30T10:55:16 IST" duration-ms="2715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidDetail -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:16 IST" name="teardown" finished-at="2021-05-30T10:55:16 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:16 IST" name="setup" finished-at="2021-05-30T10:55:21 IST" duration-ms="4870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfiyinvalidUsernameDetails()[pri:4, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:21 IST" name="verfiyinvalidUsernameDetails" finished-at="2021-05-30T10:55:22 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyinvalidUsernameDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:22 IST" name="teardown" finished-at="2021-05-30T10:55:22 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:22 IST" name="setup" finished-at="2021-05-30T10:55:27 IST" duration-ms="4592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfiyinvalidPasswordDetails()[pri:5, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:27 IST" name="verfiyinvalidPasswordDetails" finished-at="2021-05-30T10:55:27 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyinvalidPasswordDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:27 IST" name="teardown" finished-at="2021-05-30T10:55:27 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:27 IST" name="setup" finished-at="2021-05-30T10:55:32 IST" duration-ms="4588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfiyBlankLoginDetails()[pri:6, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:32 IST" name="verfiyBlankLoginDetails" finished-at="2021-05-30T10:55:32 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyBlankLoginDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hostel.qa.testcases.loginTest@776b83cc]" started-at="2021-05-30T10:55:32 IST" name="teardown" finished-at="2021-05-30T10:55:32 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.hostel.qa.testcases.loginTest -->
+    </test> <!-- TestNG Framework -->
+  </suite> <!-- Pardise Hostel Automate TestCases -->
 </testng-results>

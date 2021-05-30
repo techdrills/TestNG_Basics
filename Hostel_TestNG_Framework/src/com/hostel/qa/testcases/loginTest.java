@@ -52,7 +52,7 @@ public class loginTest {
 		Assert.assertEquals(buttonVisibility, true);
 	}
 	
-	@Test(priority=3, enabled=false)   // enabled false meaing test case will not run
+	@Test(priority=3)   // enabled false meaing test case will not run
 	public void verifyLoginWithValidDetail() {
 		// enter valid username and password and check login functionality
 		// validation based on - after login url
